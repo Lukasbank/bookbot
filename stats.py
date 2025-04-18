@@ -11,7 +11,7 @@ def each_character(book_text_string):
     each_character_dict = {}
     lower_case_text = book_text_string.lower()
     for character in lower_case_text:
-        if character in each_character_dict:
+        if character in lower_case_text:
             each_character_dict[character] += 1
         else:
             each_character_dict[character] = 1
